@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+        *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    body,html{
+      background-color: hsl(47, 88%, 63%);
+      height: 100dvh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem; 
+      font-family: 'Figtree', sans-serif;
+
+    }
+
+    .parent{
+      background-color: hsl(0, 0%, 100%);
+      max-width: 375px;
+      min-width: 300px;
+      border: 1px solid;
+      padding: 1.2rem;
+      border-radius: 18px;
+      box-shadow: 10px 10px 0px;
+      /* display: flex;
+      flex-direction: column; */
+      
+    }
+    #box1{
+      border-radius: 18px;
+      overflow: hidden;
+    }
+    #box1 img{
+      width: 100%;
+    }
+    #box2{
+      margin-top: 2rem;
+    }
+    #box2 a{
+      margin-top: 3rem;
+      text-decoration: none;
+      padding: 0.4rem 1rem;
+      background-color:  hsl(47, 88%, 63%);
+      color: hsl(0, 0%, 7%);
+      font-weight: 800;
+      border-radius: 0.3rem;
+    }
+    #box2 h3{
+      margin-top: 1.2rem;
+      color: hsl(0, 0%, 7%);
+      font-weight: 500;
+      font-size: 0.8rem !important;
+      
+      
+    }
+    #box2 h2{
+      color:hsl(0, 0%, 7%);
+      margin-top: 1.2rem;
+      font-weight: 800;
+    }
+    #box2 h2:hover{
+      color: hsl(47, 88%, 63%);
+    }
+    #box2 p{
+      color: hsl(0, 0%, 50%);
+      margin-top: 1.2rem;
+      line-height: 1.6rem;
+
+    }
+    .box3{
+      margin-top: 2rem;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      transform: translateX(-3%);
+    }
+    .box3 img{
+      width: 60%;
+    }
+    .box3 h3{
+      font-size: 0.8rem !important;
+    }
+    .img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .footer{
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+    @media (max-width:375px) {
+        .parent{
+            max-width: 350px;
+        }
+        .footer p{
+            font-size: 0.8rem;
+        }
+        
+    }
