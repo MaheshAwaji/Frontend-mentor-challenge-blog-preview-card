@@ -4,7 +4,7 @@ This project is a solution to the Frontend Mentor Challenge for beginners. The g
 
 ## Preview
 
-![Blog Preview Card](link-to-your-image.png)
+![Blog Preview Card](https://mahesh-awaji-newbie-frontend-mentor-1.netlify.app/)
 
 ## Features
 
